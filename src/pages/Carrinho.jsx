@@ -5,6 +5,7 @@ import ProductCarrinho from '../components/ProductCarrinho';
 import api_albumdegeladeira from '../services/api_albumdegeladeira'
 import { useState } from 'react';
 import {setCarrinho} from '../store/Carrinho/Carrinho.action'
+import CarrinhoImg from '../assets/carrinho.png'
 
 
 function formatReal(price){
@@ -110,7 +111,7 @@ function Carrinho(){
                 </div>
                 :
                 <div className={styles.carrinhoVazio}>
-                    <img src="https://image.flaticon.com/icons/png/512/2037/2037021.png" alt="carrinho vazio" />
+                    <img src={CarrinhoImg} alt="carrinho vazio" />
                     <p>O seu carrinho de compras está vazio</p>
                 </div>
                 }
