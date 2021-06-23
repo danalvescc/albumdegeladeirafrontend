@@ -1,0 +1,23 @@
+.container {
+    min-width:100%;
+    padding: 30px 0 20px 0;
+}
+
+.container h2{
+    width: 100%;
+    font-size: 30px;
+}
+
+.white{
+    color: var(--white);
+}
+
+.purple{
+    color: var(--purple);
+}
+
+@media screen and (max-width:640px){
+    .container {
+        padding: 15px 0 8px 0;
+    }
+}

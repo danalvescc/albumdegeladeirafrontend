@@ -22,3 +22,34 @@
     width: 115px;
     height: 18px;
 }
+
+.ico{
+    float: right;
+    transform: translateY(-43px);
+}
+
+.ico a{
+    color: var(--darkGray);
+    font-size: 26px;
+    margin-right: 30px;
+    transition: all .2s;
+}
+
+.ico a:hover{
+    opacity: .8;
+}
+
+@media screen and (max-width:640px){
+    .logoname{
+        display: none;
+    }
+
+    .ico{
+        transform: translateY(-37px);
+    }
+
+    .ico a{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+}

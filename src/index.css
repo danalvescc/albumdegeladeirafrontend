@@ -67,5 +67,7 @@ table {
   --black: #000000;
   --blue: rgb(102, 133, 211);
   --yellow: rgb(252, 217, 73);
+  --darkGray: rgb(97, 102, 107);
+  --lightGray: rgba(0,0,0,0.02);
 }
 

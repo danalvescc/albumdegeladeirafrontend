@@ -4,6 +4,8 @@ import api_albumdegeladeira from '../services/api_albumdegeladeira'
 import { setCarrinho } from '../store/Carrinho/Carrinho.action'
 import styles from '../styles/components/Products.module.css'
 import Product from './Product'
+import PageTitle from './PageTitle'
+
 
 function Products(){
     const dispatch = useDispatch()
@@ -48,9 +50,7 @@ function Products(){
 
     return (
         <div className={styles.container}>
-            <header>
-                <h2>Produtos</h2>
-            </header>
+            <PageTitle title={'Produtos'} color={'white'}/>
             <div className={styles.productGrid}>
                 {renderProducts()}
             </div>
